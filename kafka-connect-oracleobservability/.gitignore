@@ -1,0 +1,11 @@
+/target/
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+config/*.local.*
+*.pem
+*.key
+*.p12
+*.jks
+/demo-output/

@@ -1,0 +1,1 @@
+# No providers in the plugin. Prevent Jersey from falling back to worker service descriptors.
