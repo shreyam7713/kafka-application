@@ -1,0 +1,6 @@
+{
+  "run_id": "java-isolation-b3b4b12c81bb",
+  "exit_code": 0,
+  "stdout": "Endpoint: https://loganalytics.us-phoenix-1.oci.oraclecloud.com\nUpload HTTP status: 200\nOCI request ID: config-recheck-6eb4f8af-6840-4a0/4D3CF7D48D4EF1DF2A83E06A5048589B/D97AF737BB53F7BBBA623D13B03D5871\n",
+  "stderr": "SLF4J: Failed to load class \"org.slf4j.impl.StaticLoggerBinder\".\nSLF4J: Defaulting to no-operation (NOP) logger implementation\nSLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.\n"
+}

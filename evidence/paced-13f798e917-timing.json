@@ -1,0 +1,11 @@
+{
+  "run_id": "paced-13f798e917",
+  "target_events_per_minute": 120,
+  "target_duration_seconds": 10,
+  "planned_count": 20,
+  "received_unique": 20,
+  "first_event_visible_seconds": 2.615,
+  "event_timestamp_span_seconds": 9.5,
+  "visible_before_run_finished": true,
+  "passed": true
+}

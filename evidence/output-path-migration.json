@@ -1,0 +1,22 @@
+{
+  "old_output": "/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/filestream-output.jsonl",
+  "new_output": "/Users/shreyamchaurasia/Desktop/Shreyam-Kafka-Hackathon/data/filestream-output.jsonl",
+  "preserved_records": 1438,
+  "preserved_bytes": 306487,
+  "preserved_content_sha256": "a50f98b4b4961fba8f8ea8d452c542973dfcc695538a818a53a4605b4307efb6",
+  "offsets_at_handoff": {
+    "offsets": [
+      {
+        "partition": {
+          "kafka_partition": 0,
+          "kafka_topic": "la-hackathon-logs"
+        },
+        "offset": {
+          "kafka_offset": 1438
+        }
+      }
+    ]
+  },
+  "connector_state": "RUNNING",
+  "task_state": "RUNNING"
+}

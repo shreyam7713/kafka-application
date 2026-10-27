@@ -1,0 +1,13 @@
+{
+  "upstream_repository": "https://github.com/Kalsaria-C/kafka-connect-oracleobservability.git",
+  "upstream_revision": "f2aa2f639fea2fc5a2c3967c1c892cf36d78cd35",
+  "archive": "/Users/shreyamchaurasia/Desktop/Shreyam-Kafka-Hackathon/connectors/oracle-observability/target/kafka-connect-oracleobservability-0.1.0-SNAPSHOT-plugin.zip",
+  "sha256": "d27d8f9c57beafa926b682ffad8faf22e4c6969d7ec68b4a0c8cf98bba574a68",
+  "verification": {
+    "tests": 43,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "built_utc": "2026-10-27T07:56:40.454888+00:00"
+}

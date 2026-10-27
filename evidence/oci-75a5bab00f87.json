@@ -1,0 +1,35 @@
+{
+  "run_id": "oci-75a5bab00f87",
+  "produced": 10,
+  "planned_count": 10,
+  "target_events_per_minute": 10.0,
+  "target_duration_seconds": 60.0,
+  "generation_elapsed_seconds": 60.065,
+  "publish_elapsed_seconds": 60.448,
+  "oci": {
+    "api_acceptance_verified": true,
+    "target_offsets": {
+      "0": 1558
+    },
+    "committed_offsets": {
+      "0": 1558
+    },
+    "log_analytics_indexing_verified": false,
+    "scope": "Committed offsets indicate upstream API acceptance; verify event IDs and parsed fields in Log Explorer"
+  },
+  "file": {
+    "run_ids": [
+      "oci-75a5bab00f87"
+    ],
+    "produced": 10,
+    "received_total": 10,
+    "received_unique": 10,
+    "missing_ids": [],
+    "duplicate_records": 0,
+    "unexpected_ids": [],
+    "changed_event_ids": [],
+    "malformed_output_lines": [],
+    "passed": true
+  },
+  "passed": true
+}

@@ -1,0 +1,51 @@
+{
+  "checked_utc": "2026-10-27T10:23:19.119415+00:00",
+  "profile": "la-hack-user",
+  "auth_type": "config_file",
+  "local_configuration_valid": true,
+  "private_key_readable": true,
+  "private_key_fingerprint_matches_profile": true,
+  "oci_task_restarted_to_reload_credentials": true,
+  "namespace_probe": {
+    "http_status": 404,
+    "code": "NotAuthorizedOrNotFound"
+  },
+  "upload_probe": {
+    "http_status": 404,
+    "code": "NotAuthorizedOrNotFound",
+    "message": "Authorization failed or requested resource not found"
+  },
+  "previous_401_reproduced": false,
+  "api_acceptance_verified": false,
+  "log_analytics_indexing_verified": false,
+  "oci_status": {
+    "name": "oci-la-cloud",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    ],
+    "type": "sink"
+  },
+  "oci_offsets": {
+    "offsets": [
+      {
+        "partition": {
+          "kafka_partition": 0,
+          "kafka_topic": "la-hackathon-logs"
+        },
+        "offset": {
+          "kafka_offset": 1488
+        }
+      }
+    ]
+  }
+}

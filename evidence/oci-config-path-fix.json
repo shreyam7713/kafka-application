@@ -1,0 +1,41 @@
+{
+  "root_cause": "The Java uploader requires an absolute oci.config.file path; tilde expansion was missing before submission",
+  "corrected_config_file": "/Users/shreyamchaurasia/.oci/config",
+  "file_connector": {
+    "name": "oci-la-hackathon",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "4.1.2"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "4.1.2"
+      }
+    ],
+    "type": "sink"
+  },
+  "oci_connector": {
+    "name": "oci-la-cloud",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    ],
+    "type": "sink"
+  },
+  "file_output_preserved": true,
+  "local_tests_passed": 18,
+  "log_analytics_indexing_verified": false
+}

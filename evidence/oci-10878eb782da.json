@@ -1,0 +1,66 @@
+{
+  "run_id": "oci-10878eb782da",
+  "checked_utc": "2026-10-27T10:15:03.475143+00:00",
+  "configuration_file": "/Users/shreyamchaurasia/Desktop/Shreyam-Kafka-Hackathon/config/oci-sink.local.json",
+  "produced": 10,
+  "file": {
+    "run_ids": [
+      "oci-10878eb782da"
+    ],
+    "produced": 10,
+    "received_total": 10,
+    "received_unique": 10,
+    "missing_ids": [],
+    "duplicate_records": 0,
+    "unexpected_ids": [],
+    "changed_event_ids": [],
+    "malformed_output_lines": [],
+    "passed": true
+  },
+  "oci": {
+    "status": {
+      "name": "oci-la-cloud",
+      "connector": {
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "0.1.0-SNAPSHOT"
+      },
+      "tasks": [
+        {
+          "id": 0,
+          "state": "RUNNING",
+          "worker_id": "localhost:8083",
+          "version": "0.1.0-SNAPSHOT"
+        }
+      ],
+      "type": "sink"
+    },
+    "offsets": {
+      "offsets": [
+        {
+          "partition": {
+            "kafka_partition": 0,
+            "kafka_topic": "la-hackathon-logs"
+          },
+          "offset": {
+            "kafka_offset": 1488
+          }
+        }
+      ]
+    },
+    "api_acceptance_verified": false,
+    "log_analytics_indexing_verified": false,
+    "acceptance_check": "Timed out after 120 seconds without committing the generated Kafka range",
+    "worker_error": "OCI Log Events request failed: status=-1, opcRequestId=null",
+    "fresh_sdk_probe": {
+      "operation": "GetNamespace",
+      "http_status": 401,
+      "service_code": "NotAuthenticated"
+    },
+    "profile": "la-hack-user",
+    "profile_has_expired_session_token": true,
+    "session_token_expired_utc": "2026-10-26T20:18:38+00:00",
+    "connector_authentication": "ConfigFileAuthenticationDetailsProvider; session tokens are not consumed"
+  },
+  "passed": false
+}

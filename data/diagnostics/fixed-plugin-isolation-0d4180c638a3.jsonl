@@ -1,0 +1,1 @@
+{"timestamp":"2026-10-27T11:04:53.756Z","demo_run_id":"fixed-plugin-isolation-0d4180c638a3","event_id":"fixed-plugin-isolation-0d4180c638a3-000000","service":"checkout","level":"ERROR","message":"Payment request failed","latency_ms":850}

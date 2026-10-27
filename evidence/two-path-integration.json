@@ -1,0 +1,40 @@
+{
+  "upstream_revision": "f2aa2f639fea2fc5a2c3967c1c892cf36d78cd35",
+  "file_path_preserved": true,
+  "fresh_file_events": 20,
+  "file_missing": 0,
+  "file_changed": 0,
+  "file_duplicates": 0,
+  "oci_plugin_installed": true,
+  "oci_connector_registered": false,
+  "oci_activation_without_settings_rejected": true,
+  "cloud_ingestion_tested": false,
+  "file_connector": {
+    "name": "oci-la-hackathon",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "4.1.2"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "4.1.2"
+      }
+    ],
+    "type": "sink"
+  },
+  "oci_build": {
+    "tests": 43,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "passed": true,
+  "local_tests": 16,
+  "upstream_tests": 43,
+  "stopped_offset_api_probe_passed": true,
+  "upstream_source_unchanged": true
+}

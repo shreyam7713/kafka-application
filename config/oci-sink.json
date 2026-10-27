@@ -1,0 +1,25 @@
+{
+  "name": "oci-la-cloud",
+  "config": {
+    "connector.class": "com.oracle.observability.kafka.connect.OracleObservabilitySinkConnector",
+    "tasks.max": "1",
+    "topics": "la-hackathon-logs",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "oci.region": "us-phoenix-1",
+    "oci.namespace": "REPLACE_WITH_VERIFIED_NAMESPACE",
+    "oci.auth.type": "config_file",
+    "oci.config.file": "/REPLACE_ME/oci/config",
+    "oci.config.profile": "REPLACE_WITH_VERIFIED_PROFILE",
+    "oci.la.log.group.id": "REPLACE_WITH_ACTUAL_LOG_GROUP_OCID",
+    "oci.la.log.source.name": "Kafka Hackathon Application Logs",
+    "oci.la.log.path": "kafka-hackathon.log",
+    "oci.la.batch.max.records": "100",
+    "oci.la.batch.max.bytes": "1048576",
+    "oci.connect.timeout.ms": "5000",
+    "oci.read.timeout.ms": "15000",
+    "oci.retry.initial.ms": "1000",
+    "oci.retry.max.ms": "30000",
+    "oci.put.budget.ms": "60000"
+  }
+}

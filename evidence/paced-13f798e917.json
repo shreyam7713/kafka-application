@@ -1,0 +1,43 @@
+{
+  "run_ids": [
+    "paced-13f798e917"
+  ],
+  "produced": 20,
+  "received_total": 20,
+  "received_unique": 20,
+  "missing_ids": [],
+  "duplicate_records": 0,
+  "unexpected_ids": [],
+  "changed_event_ids": [],
+  "malformed_output_lines": [],
+  "passed": true,
+  "test": "filestream-baseline",
+  "mode": "normal",
+  "planned_count": 20,
+  "target_events_per_minute": 120.0,
+  "target_duration_seconds": 10.0,
+  "generation_elapsed_seconds": 10.069,
+  "publish_elapsed_seconds": 10.495,
+  "completed_utc": "2026-10-27T07:27:09.926882+00:00",
+  "kafka_version": "4.1.2",
+  "broker": "localhost:19092",
+  "expected_fixture": "/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/runs/paced-13f798e917.jsonl",
+  "actual_output": "/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/filestream-output.jsonl",
+  "connector_status": {
+    "name": "oci-la-hackathon",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "4.1.2"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "4.1.2"
+      }
+    ],
+    "type": "sink"
+  }
+}

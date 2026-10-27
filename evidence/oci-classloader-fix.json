@@ -1,0 +1,105 @@
+{
+  "checked_utc": "2026-10-27T11:10:24.264674+00:00",
+  "root_cause": "Jersey service discovery merged Kafka Connect parent service descriptors into the OCI plugin classloader",
+  "underlying_exception": "java.lang.ClassCastException: org.glassfish.jersey.server.wadl.internal.WadlAutoDiscoverable from worker app loader cannot be cast to org.glassfish.jersey.internal.spi.AutoDiscoverable from PluginClassLoader",
+  "failure_stage": "Jersey HTTP client initialization inside client.uploadLogEventsFile(request), before any HTTP response",
+  "worker_jersey_version": "3.1.10",
+  "plugin_jersey_version": "3.0.8",
+  "standalone_success_explanation": "The standalone JVM has no Kafka Connect server providers to mix with the SDK Jersey provider interfaces",
+  "fix": "Scope SDK construction and upload to a context classloader that exposes only plugin service descriptors, including an empty descriptor to prevent Jersey fallback to worker services; restore the worker context after each operation",
+  "local_reproduction": "evidence/oci-worker-isolation.txt",
+  "real_kafka_classloader_upload_after_fix": "evidence/oci-worker-isolation-fixed.txt",
+  "regression_test": "PackagedPluginIT.packagedSdkUploadsWithoutLoadingWorkerJerseyProviders: previously failed with status=-1; now performs a signed loopback upload despite an incompatible parent forced provider",
+  "build_verification": {
+    "tests": 48,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "installation_report": "evidence/oci-rebuilt-installation.json",
+  "live_acceptance_log_lines": [
+    "[2026-10-27 16:39:26,801] INFO [oci-la-cloud|task-0] Log Events accepted: records=50, bytes=11288, latencyMs=1429, opcRequestId=oracleobservability-57c3ef73-6a1/A18B88DAA26CA5826786E06A50485808/C89C4B6809966C716612EDF2244CD653 (com.oracle.observability.kafka.connect.OciSdkLogEventsUploader:95)",
+    "[2026-10-27 16:39:42,396] INFO [oci-la-cloud|task-0] Log Events accepted: records=10, bytes=2765, latencyMs=651, opcRequestId=oracleobservability-817c672d-9ec/C283BAD3DD187AC57786E06A5048589A/9777CC7A1C77ADC2EEA3EEC86414A81A (com.oracle.observability.kafka.connect.OciSdkLogEventsUploader:95)"
+  ],
+  "post_restart_upload_errors": [],
+  "fresh_test": {
+    "run_id": "oci-jersey-fix-3a7fa5b137d9",
+    "produced": 10,
+    "planned_count": 10,
+    "target_events_per_minute": null,
+    "target_duration_seconds": null,
+    "generation_elapsed_seconds": 0.043,
+    "publish_elapsed_seconds": 1.401,
+    "oci": {
+      "api_acceptance_verified": true,
+      "target_offsets": {
+        "0": 1548
+      },
+      "committed_offsets": {
+        "0": 1548
+      },
+      "log_analytics_indexing_verified": false,
+      "scope": "Committed offsets indicate upstream API acceptance; verify event IDs and parsed fields in Log Explorer"
+    },
+    "file": {
+      "run_ids": [
+        "oci-jersey-fix-3a7fa5b137d9"
+      ],
+      "produced": 10,
+      "received_total": 10,
+      "received_unique": 10,
+      "missing_ids": [],
+      "duplicate_records": 0,
+      "unexpected_ids": [],
+      "changed_event_ids": [],
+      "malformed_output_lines": [],
+      "passed": true
+    },
+    "passed": true
+  },
+  "topic_end_offsets": {
+    "0": 1548
+  },
+  "committed_offsets": {
+    "0": 1548
+  },
+  "consumer_lag": {
+    "0": 0
+  },
+  "local_config_unchanged": true,
+  "oci_status": {
+    "name": "oci-la-cloud",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    ],
+    "type": "sink"
+  },
+  "file_status": {
+    "name": "oci-la-hackathon",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "4.1.2"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "4.1.2"
+      }
+    ],
+    "type": "sink"
+  },
+  "log_analytics_indexing_verified": false
+}

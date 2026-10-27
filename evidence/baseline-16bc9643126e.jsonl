@@ -1,0 +1,10 @@
+{"timestamp":"2026-10-27T07:32:34.486Z","demo_run_id":"baseline-16bc9643126e","event_id":"baseline-16bc9643126e-000000","service":"checkout","level":"ERROR","message":"Quoted message: \"payment failed\"","latency_ms":850}
+{"timestamp":"2026-10-27T07:32:34.591Z","demo_run_id":"baseline-16bc9643126e","event_id":"baseline-16bc9643126e-000001","service":"inventory","level":"INFO","message":"Path C:\\logs\\checkout.log","latency_ms":26}
+{"timestamp":"2026-10-27T07:32:34.690Z","demo_run_id":"baseline-16bc9643126e","event_id":"baseline-16bc9643126e-000002","service":"payments","level":"INFO","message":"Unicode: नमस्ते café 日本語 🚀","latency_ms":27}
+{"timestamp":"2026-10-27T07:32:34.791Z","demo_run_id":"baseline-16bc9643126e","event_id":"baseline-16bc9643126e-000003","service":"checkout","level":"INFO","message":"First line\nSecond line\tTabbed","latency_ms":28}
+{"timestamp":"2026-10-27T07:32:34.891Z","demo_run_id":"baseline-16bc9643126e","event_id":"baseline-16bc9643126e-000004","service":"inventory","level":"INFO","message":"JSON text: {\"status\":\"ok\"}","latency_ms":29}
+{"timestamp":"2026-10-27T07:32:34.991Z","demo_run_id":"baseline-16bc9643126e","event_id":"baseline-16bc9643126e-000005","service":"payments","level":"WARN","message":"Quoted message: \"payment failed\"","latency_ms":30}
+{"timestamp":"2026-10-27T07:32:35.091Z","demo_run_id":"baseline-16bc9643126e","event_id":"baseline-16bc9643126e-000006","service":"checkout","level":"INFO","message":"Path C:\\logs\\checkout.log","latency_ms":31}
+{"timestamp":"2026-10-27T07:32:35.191Z","demo_run_id":"baseline-16bc9643126e","event_id":"baseline-16bc9643126e-000007","service":"inventory","level":"INFO","message":"Unicode: नमस्ते café 日本語 🚀","latency_ms":32}
+{"timestamp":"2026-10-27T07:32:35.291Z","demo_run_id":"baseline-16bc9643126e","event_id":"baseline-16bc9643126e-000008","service":"payments","level":"INFO","message":"First line\nSecond line\tTabbed","latency_ms":33}
+{"timestamp":"2026-10-27T07:32:35.391Z","demo_run_id":"baseline-16bc9643126e","event_id":"baseline-16bc9643126e-000009","service":"checkout","level":"INFO","message":"JSON text: {\"status\":\"ok\"}","latency_ms":34}

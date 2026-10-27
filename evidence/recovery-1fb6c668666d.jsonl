@@ -1,0 +1,2 @@
+{"timestamp":"2026-10-27T07:28:06.549Z","demo_run_id":"recovery-1fb6c668666d","event_id":"recovery-1fb6c668666d-000000","service":"checkout","level":"ERROR","message":"Payment request failed","latency_ms":850}
+{"timestamp":"2026-10-27T07:28:07.053Z","demo_run_id":"recovery-1fb6c668666d","event_id":"recovery-1fb6c668666d-000001","service":"inventory","level":"INFO","message":"Request completed","latency_ms":26}

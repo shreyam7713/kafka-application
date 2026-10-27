@@ -1,0 +1,35 @@
+{
+  "run_id": "oci-jersey-fix-3a7fa5b137d9",
+  "produced": 10,
+  "planned_count": 10,
+  "target_events_per_minute": null,
+  "target_duration_seconds": null,
+  "generation_elapsed_seconds": 0.043,
+  "publish_elapsed_seconds": 1.401,
+  "oci": {
+    "api_acceptance_verified": true,
+    "target_offsets": {
+      "0": 1548
+    },
+    "committed_offsets": {
+      "0": 1548
+    },
+    "log_analytics_indexing_verified": false,
+    "scope": "Committed offsets indicate upstream API acceptance; verify event IDs and parsed fields in Log Explorer"
+  },
+  "file": {
+    "run_ids": [
+      "oci-jersey-fix-3a7fa5b137d9"
+    ],
+    "produced": 10,
+    "received_total": 10,
+    "received_unique": 10,
+    "missing_ids": [],
+    "duplicate_records": 0,
+    "unexpected_ids": [],
+    "changed_event_ids": [],
+    "malformed_output_lines": [],
+    "passed": true
+  },
+  "passed": true
+}

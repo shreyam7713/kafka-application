@@ -1,0 +1,117 @@
+{
+  "started_utc": "2026-10-27T10:29:38.535957+00:00",
+  "old_pid": 51157,
+  "log_byte_start": 8403454,
+  "offsets_before": {
+    "offsets": [
+      {
+        "partition": {
+          "kafka_partition": 0,
+          "kafka_topic": "la-hackathon-logs"
+        },
+        "offset": {
+          "kafka_offset": 1488
+        }
+      }
+    ]
+  },
+  "oci_status": {
+    "name": "oci-la-cloud",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    ],
+    "type": "sink"
+  },
+  "new_pid": 66098,
+  "file_status": {
+    "name": "oci-la-hackathon",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "4.1.2"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "4.1.2"
+      }
+    ],
+    "type": "sink"
+  },
+  "offsets_after_restart": {
+    "offsets": [
+      {
+        "partition": {
+          "kafka_partition": 0,
+          "kafka_topic": "la-hackathon-logs"
+        },
+        "offset": {
+          "kafka_offset": 1488
+        }
+      }
+    ]
+  },
+  "restarted_utc": "2026-10-27T10:29:46.034894+00:00",
+  "latest_oci_status": {
+    "name": "oci-la-cloud",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    ],
+    "type": "sink"
+  },
+  "latest_oci_offsets": {
+    "offsets": [
+      {
+        "partition": {
+          "kafka_partition": 0,
+          "kafka_topic": "la-hackathon-logs"
+        },
+        "offset": {
+          "kafka_offset": 1488
+        }
+      }
+    ]
+  },
+  "upload_log_lines": [
+    "[2026-10-27 15:59:46,231] WARN [oci-la-cloud|task-0] Log Events transient failure: completedChunks=0, totalChunks=1, retryDelayMs=848 (com.oracle.observability.kafka.connect.OracleObservabilitySinkTask:91)",
+    "org.apache.kafka.connect.errors.RetriableException: OCI Log Events request failed: status=-1, opcRequestId=null",
+    "[2026-10-27 15:59:46,716] WARN [oci-la-cloud|task-0] Log Events transient failure: completedChunks=0, totalChunks=1, retryDelayMs=1921 (com.oracle.observability.kafka.connect.OracleObservabilitySinkTask:91)",
+    "org.apache.kafka.connect.errors.RetriableException: OCI Log Events request failed: status=-1, opcRequestId=null",
+    "[2026-10-27 15:59:47,731] WARN [oci-la-cloud|task-0] Log Events transient failure: completedChunks=0, totalChunks=1, retryDelayMs=3570 (com.oracle.observability.kafka.connect.OracleObservabilitySinkTask:91)",
+    "org.apache.kafka.connect.errors.RetriableException: OCI Log Events request failed: status=-1, opcRequestId=null",
+    "[2026-10-27 15:59:48,742] WARN [oci-la-cloud|task-0] Log Events transient failure: completedChunks=0, totalChunks=1, retryDelayMs=8335 (com.oracle.observability.kafka.connect.OracleObservabilitySinkTask:91)",
+    "org.apache.kafka.connect.errors.RetriableException: OCI Log Events request failed: status=-1, opcRequestId=null",
+    "[2026-10-27 15:59:49,754] WARN [oci-la-cloud|task-0] Log Events transient failure: completedChunks=0, totalChunks=1, retryDelayMs=18565 (com.oracle.observability.kafka.connect.OracleObservabilitySinkTask:91)",
+    "org.apache.kafka.connect.errors.RetriableException: OCI Log Events request failed: status=-1, opcRequestId=null",
+    "[2026-10-27 15:59:50,764] WARN [oci-la-cloud|task-0] Log Events transient failure: completedChunks=0, totalChunks=1, retryDelayMs=26593 (com.oracle.observability.kafka.connect.OracleObservabilitySinkTask:91)",
+    "org.apache.kafka.connect.errors.RetriableException: OCI Log Events request failed: status=-1, opcRequestId=null",
+    "[2026-10-27 15:59:51,775] WARN [oci-la-cloud|task-0] Log Events transient failure: completedChunks=0, totalChunks=1, retryDelayMs=27932 (com.oracle.observability.kafka.connect.OracleObservabilitySinkTask:91)",
+    "org.apache.kafka.connect.errors.RetriableException: OCI Log Events request failed: status=-1, opcRequestId=null",
+    "[2026-10-27 15:59:52,788] WARN [oci-la-cloud|task-0] Log Events transient failure: completedChunks=0, totalChunks=1, retryDelayMs=30000 (com.oracle.observability.kafka.connect.OracleObservabilitySinkTask:91)",
+    "org.apache.kafka.connect.errors.RetriableException: OCI Log Events request failed: status=-1, opcRequestId=null",
+    "[2026-10-27 15:59:53,794] WARN [oci-la-cloud|task-0] Log Events transient failure: completedChunks=0, totalChunks=1, retryDelayMs=30000 (com.oracle.observability.kafka.connect.OracleObservabilitySinkTask:91)",
+    "org.apache.kafka.connect.errors.RetriableException: OCI Log Events request failed: status=-1, opcRequestId=null"
+  ]
+}

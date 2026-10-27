@@ -1,0 +1,13 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Endpoint: https://loganalytics.us-phoenix-1.oci.oraclecloud.com
+com.oracle.bmc.model.BmcException: Error returned by UploadLogEventsFile operation in LogAnalytics service.(404, NotAuthorizedOrNotFound, false) Authorization failed or requested resource not found. (opc-request-id: config-recheck-6c804267-6454-4d6/E9E33B585854B3468D7BE06A504858CF/6D0434813C6A00C0F16C437DCCCAF61F)
+Timestamp: 2026-10-27T10:23:08.870Z
+Client version: Oracle-JavaSDK/3.95.2
+Request Endpoint: https://loganalytics.us-phoenix-1.oci.oraclecloud.com/20200601/namespaces/ax1zffkcg1fy/actions/uploadLogEventsFile?logGroupId=ocid1.loganalyticsloggroup.oc1.phx.amaaaaaaidfzkvqas5v3km6hjflyorhibejudannoht622tpkx2nbisfx22a&payloadType=JSON
+Additional Properties in error response: {}
+Troubleshooting Tips: See https://docs.oracle.com/en-us/iaas/Content/API/References/apierrors.htm#apierrors_404__404_notauthorizedornotfound for more information about resolving this error
+Also see https://docs.oracle.com/iaas/api/#/en/logan-api-spec/20200601/Upload/UploadLogEventsFile for details on this operation's requirements.
+To get more info on the failing request, you can enable debug level logs as mentioned in `Using SLF4J for Logging section` in https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdkconfig.htm.
+If you are unable to resolve this LogAnalytics issue, please contact Oracle support and provide them this full error message.

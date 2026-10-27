@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/Kalsaria-C/kafka-connect-oracleobservability.git",
+  "branch": "ckalsari/initial-connector",
+  "revision": "f2aa2f639fea2fc5a2c3967c1c892cf36d78cd35",
+  "directory": "connectors/oracle-observability"
+}

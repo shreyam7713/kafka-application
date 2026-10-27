@@ -1,0 +1,10 @@
+{"timestamp":"2026-10-27T07:36:56.027Z","demo_run_id":"baseline-7f769f622dae","event_id":"baseline-7f769f622dae-000000","service":"checkout","level":"ERROR","message":"Payment request failed","latency_ms":850}
+{"timestamp":"2026-10-27T07:37:02.031Z","demo_run_id":"baseline-7f769f622dae","event_id":"baseline-7f769f622dae-000001","service":"inventory","level":"INFO","message":"Request completed","latency_ms":26}
+{"timestamp":"2026-10-27T07:37:08.030Z","demo_run_id":"baseline-7f769f622dae","event_id":"baseline-7f769f622dae-000002","service":"payments","level":"INFO","message":"Request completed","latency_ms":27}
+{"timestamp":"2026-10-27T07:37:14.031Z","demo_run_id":"baseline-7f769f622dae","event_id":"baseline-7f769f622dae-000003","service":"checkout","level":"INFO","message":"Request completed","latency_ms":28}
+{"timestamp":"2026-10-27T07:37:20.029Z","demo_run_id":"baseline-7f769f622dae","event_id":"baseline-7f769f622dae-000004","service":"inventory","level":"INFO","message":"Request completed","latency_ms":29}
+{"timestamp":"2026-10-27T07:37:26.027Z","demo_run_id":"baseline-7f769f622dae","event_id":"baseline-7f769f622dae-000005","service":"payments","level":"WARN","message":"Request took longer than expected","latency_ms":30}
+{"timestamp":"2026-10-27T07:37:32.030Z","demo_run_id":"baseline-7f769f622dae","event_id":"baseline-7f769f622dae-000006","service":"checkout","level":"INFO","message":"Request completed","latency_ms":31}
+{"timestamp":"2026-10-27T07:37:38.027Z","demo_run_id":"baseline-7f769f622dae","event_id":"baseline-7f769f622dae-000007","service":"inventory","level":"INFO","message":"Request completed","latency_ms":32}
+{"timestamp":"2026-10-27T07:37:44.031Z","demo_run_id":"baseline-7f769f622dae","event_id":"baseline-7f769f622dae-000008","service":"payments","level":"INFO","message":"Request completed","latency_ms":33}
+{"timestamp":"2026-10-27T07:37:50.027Z","demo_run_id":"baseline-7f769f622dae","event_id":"baseline-7f769f622dae-000009","service":"checkout","level":"INFO","message":"Request completed","latency_ms":34}

@@ -1,0 +1,115 @@
+{
+  "started_utc": "2026-10-27T11:09:19.800660+00:00",
+  "source_directory": "/Users/shreyamchaurasia/Desktop/Shreyam-Kafka-Hackathon/kafka-connect-oracleobservability",
+  "source_revision": "589ddce31c8c9cfd7c7ea92fd910d424c1cc6ae2",
+  "source_changes": [
+    " M src/main/java/com/oracle/observability/kafka/connect/OciSdkLogEventsUploader.java",
+    " M src/test/java/com/oracle/observability/kafka/connect/PackagedPluginIT.java",
+    "?? src/main/java/com/oracle/observability/kafka/connect/SdkClassLoaderScope.java",
+    "?? src/main/resources/com/"
+  ],
+  "source_hashes": {
+    "src/assembly/plugin.xml": "2571f8bc9ff0267816f78ae4332516e9f64a71637513ae66f37759683491c18f",
+    "src/main/java/com/oracle/observability/kafka/connect/LogEventsChunker.java": "9e6392b4bf49c3b49210a647226ce268574e9bc3742a0fdd61d053e87580b912",
+    "src/main/java/com/oracle/observability/kafka/connect/LogEventsUploader.java": "27f0061679fe3064491668dadc84e2025d1151546651a39e70ff08af2badeb67",
+    "src/main/java/com/oracle/observability/kafka/connect/OciSdkLogEventsUploader.java": "bb25e9c7419663602719c38a283bf2d88bd6462e6a7a0746e4bfc93479a6f815",
+    "src/main/java/com/oracle/observability/kafka/connect/OracleObservabilitySinkConfig.java": "a8f01fa2d2b7e01ee93c220ec899c11743e039fc2af1d418e2ffb1af991c8c9d",
+    "src/main/java/com/oracle/observability/kafka/connect/OracleObservabilitySinkConnector.java": "3e59a684154470a22177e42828314a8f9aaee91948fe17f018f77c998ef9f5aa",
+    "src/main/java/com/oracle/observability/kafka/connect/OracleObservabilitySinkTask.java": "157cb27a83e5e921506e179b044e0dbd91c1ae476ffbc607e4581f4ea0383a2c",
+    "src/main/java/com/oracle/observability/kafka/connect/PreparedChunk.java": "81cbc2b26a61754f4e5466946c678680bb05dada01c3d1aaba84389b1056eec6",
+    "src/main/java/com/oracle/observability/kafka/connect/SdkClassLoaderScope.java": "aaaadcd3a4687f5ce726bf6ea3bda4169aa2d391bf44ccae7d12fd737c9c74f7",
+    "src/main/java/com/oracle/observability/kafka/connect/UploadResponseDiagnostics.java": "cddd037223c2ae08f08935ab051d9b7500f6aa07ba8b53ac4e595b1acae95886",
+    "src/main/resources/META-INF/services/org.apache.kafka.connect.connector.Connector": "01491157148c7d6b588ad80f651f68115a78d95f6fc96dc6def981d24588784c",
+    "src/main/resources/com/oracle/observability/kafka/connect/empty-service-provider": "b14362e2bfd3fe8ff8e7f0191887c88758d68890b9bd613331f5c1f0e87d26dc",
+    "src/test/java/com/oracle/observability/kafka/connect/LogEventsChunkerTest.java": "fa45275a7647206f4d445d5750038ac762d71a41034922f8a76f12e11bbce235",
+    "src/test/java/com/oracle/observability/kafka/connect/OciSdkLogEventsUploaderTest.java": "83812514d316db938e778b501ae55d9cbe0aad68fe1c033658d414fe54f71864",
+    "src/test/java/com/oracle/observability/kafka/connect/OracleObservabilitySinkConnectorTest.java": "c8001aebe31ea59dcf93d3f607a85269fd40a992c833ecbc695addb8b2fd7b4c",
+    "src/test/java/com/oracle/observability/kafka/connect/OracleObservabilitySinkTaskTest.java": "a5166054274580fc318e66136726b5680e0626d78f6726c41afe84bd2ab6fe1a",
+    "src/test/java/com/oracle/observability/kafka/connect/PackagedPluginIT.java": "c683e00670cd4f1f15c4c5494307c4f8bddf8b5706894440e20074a8dbaa1032",
+    "src/test/java/com/oracle/observability/kafka/connect/SdkHttpIntegrationTest.java": "2c5e32237fe17a58cec847d856828bd3bbfa4c81aac53c19c473cbba3b774cc3",
+    "src/test/java/com/oracle/observability/kafka/connect/TestFixtures.java": "8ac1fed05fbe8c226155cb9ac1b37a623a87ffde9abde2b52ffb3a2c80a1c756",
+    "src/test/java/com/oracle/observability/kafka/connect/UploadResponseDiagnosticsTest.java": "38aac36fd21d84feb99dcd4bb08e8fdbdf72943523d7878bd6c95a6cad0f74f2"
+  },
+  "archive": "/Users/shreyamchaurasia/Desktop/Shreyam-Kafka-Hackathon/kafka-connect-oracleobservability/target/kafka-connect-oracleobservability-0.1.0-SNAPSHOT-plugin.zip",
+  "archive_sha256": "adae64178b87e41d3ce079c2e5fea849430340ea698aac4d8519949c0cf2903e",
+  "local_config_sha256_before": "fcae122f016c2a484e7aba346c9b045f7f7d4ddbd77480d796bd3d53ed3b8523",
+  "old_pid": 69748,
+  "log_byte_start": 5611096,
+  "offsets_before": {
+    "offsets": [
+      {
+        "partition": {
+          "kafka_partition": 0,
+          "kafka_topic": "la-hackathon-logs"
+        },
+        "offset": {
+          "kafka_offset": 1488
+        }
+      }
+    ]
+  },
+  "installed_directory": "/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability",
+  "backup_directory": "/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugin-backups/oracle-observability-b5dbfcd90d87",
+  "verification": {
+    "tests": 48,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "project_jar_sha256": "1e3880f3d5f7472f3a77ad40362f0d53ee10aef1f730ca6126667a517f7ea3bf",
+  "runtime_jars": 36,
+  "new_pid": 73764,
+  "plugin_discovered": true,
+  "installed_files_match_zip": true,
+  "local_config_sha256_after": "fcae122f016c2a484e7aba346c9b045f7f7d4ddbd77480d796bd3d53ed3b8523",
+  "local_config_unchanged": true,
+  "registered_oci_config_unchanged": true,
+  "oci_status": {
+    "name": "oci-la-cloud",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "0.1.0-SNAPSHOT"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "0.1.0-SNAPSHOT"
+      }
+    ],
+    "type": "sink"
+  },
+  "file_status": {
+    "name": "oci-la-hackathon",
+    "connector": {
+      "state": "RUNNING",
+      "worker_id": "localhost:8083",
+      "version": "4.1.2"
+    },
+    "tasks": [
+      {
+        "id": 0,
+        "state": "RUNNING",
+        "worker_id": "localhost:8083",
+        "version": "4.1.2"
+      }
+    ],
+    "type": "sink"
+  },
+  "offsets_after": {
+    "offsets": [
+      {
+        "partition": {
+          "kafka_partition": 0,
+          "kafka_topic": "la-hackathon-logs"
+        },
+        "offset": {
+          "kafka_offset": 1488
+        }
+      }
+    ]
+  },
+  "finished_utc": "2026-10-27T11:09:25.767763+00:00"
+}

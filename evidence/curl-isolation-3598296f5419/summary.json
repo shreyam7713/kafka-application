@@ -1,0 +1,33 @@
+{
+  "run_id": "curl-isolation-3598296f5419",
+  "profile": "la-hack-user",
+  "authentication": "config_file API-key RSA-SHA256; no session token",
+  "transport": "curl direct HTTPS; proxy bypassed; TLS verification enabled",
+  "method": "POST",
+  "endpoint": "https://loganalytics.us-phoenix-1.oci.oraclecloud.com/20200601/namespaces/ax1zffkcg1fy/actions/uploadLogEventsFile?logGroupId=ocid1.loganalyticsloggroup.oc1.phx.amaaaaaaidfzkvqas5v3km6hjflyorhibejudannoht622tpkx2nbisfx22a&payloadType=JSON",
+  "records": 1,
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "http_status": 200,
+  "network": {
+    "remote_ip": "146.235.9.240",
+    "ssl_verify_result": 0,
+    "time_namelookup": 0.318436,
+    "time_connect": 0.588668,
+    "time_appconnect": 1.14541,
+    "time_starttransfer": 1.505645,
+    "time_total": 1.506056,
+    "size_upload": 383
+  },
+  "response_headers": {
+    "date": "Tue, 27 Oct 2026 10:55:15 GMT",
+    "opc-request-id": "curl-isolation-3598296f5419/DC166A44AB6F6E451383E06A504858C4/98CC33B8B967A1E600BFA7CFEEA5CB23",
+    "content-type": "application/octet-stream"
+  },
+  "response": {
+    "body": ""
+  },
+  "api_acceptance_verified": true,
+  "log_analytics_indexing_verified": false,
+  "local_config_unchanged": true
+}

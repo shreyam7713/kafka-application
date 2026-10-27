@@ -1,0 +1,27 @@
+CLASS com.oracle.bmc.loganalytics.LogAnalyticsClient loader=PluginClassLoader{pluginLocation=file:/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability/} source=file:/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability/lib/oci-java-sdk-loganalytics-3.95.2.jar
+CLASS org.glassfish.jersey.client.JerseyClient loader=PluginClassLoader{pluginLocation=file:/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability/} source=file:/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability/lib/jersey-client-3.0.8.jar
+CLASS jakarta.ws.rs.client.ClientBuilder loader=PluginClassLoader{pluginLocation=file:/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability/} source=file:/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability/lib/jakarta.ws.rs-api-3.0.0.jar
+CLASS com.fasterxml.jackson.databind.ObjectMapper loader=PluginClassLoader{pluginLocation=file:/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability/} source=file:/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability/lib/jackson-databind-2.20.1.jar
+CLASS org.apache.http.client.HttpClient loader=PluginClassLoader{pluginLocation=file:/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability/} source=file:/Users/shreyamchaurasia/Documents/Codex/2026-10-27/this/work/kafka-lab/plugins/oracle-observability/lib/httpclient-4.5.13.jar
+CAUSE com.oracle.bmc.model.BmcException: Error returned by UploadLogEventsFile operation in LogAnalytics service.(-1, , false) Unknown error Timestamp: 2026-10-27T11:02:30.810Z Client version: Oracle-JavaSDK/3.95.2 Request Endpoint: https://loganalytics.us-phoenix-1.oci.oraclecloud.com/20200601/namespaces/ax1zffkcg1fy/actions/uploadLogEventsFile?logGroupId=ocid1.loganalyticsloggroup.oc1.phx.amaaaaaaidfzkvqas5v3km6hjflyorhibejudannoht622tpkx2nbisfx22a&payloadType=JSON Additional Properties in error response: null Troubleshooting Tips: See https://docs.oracle.com/en-us/iaas/Content/API/References/apierrors.htm#apierrors_-1__-1_ for more information about resolving this error Also see https://docs.oracle.com/iaas/api/#/en/logan-api-spec/20200601/Upload/UploadLogEventsFile for details on this operation's requirements. To get more info on the failing request, you can enable debug level logs as mentioned in `Using SLF4J for Logging section` in https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/javasdkconfig.htm. If you are unable to resolve this LogAn...[truncated]
+  at com.oracle.bmc.model.BmcException.createClientSide(BmcException.java:281)
+  at com.oracle.bmc.http.internal.ClientCall.callSync(ClientCall.java:1266)
+  at com.oracle.bmc.loganalytics.LogAnalyticsClient.uploadLogEventsFile(LogAnalyticsClient.java:6847)
+  at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+  at WorkerUploadIsolation.lambda$main$3(WorkerUploadIsolation.java:44)
+CAUSE java.lang.ClassCastException: class org.glassfish.jersey.server.wadl.internal.WadlAutoDiscoverable cannot be cast to class org.glassfish.jersey.internal.spi.AutoDiscoverable (org.glassfish.jersey.server.wadl.internal.WadlAutoDiscoverable is in unnamed module of loader 'app'; org.glassfish.jersey.internal.spi.AutoDiscoverable is in unnamed module of loader org.apache.kafka.connect.runtime.isolation.PluginClassLoader @654d8173)
+  at java.base/java.util.TreeMap.compare(TreeMap.java:1570)
+  at java.base/java.util.TreeMap.addEntryToEmptyMap(TreeMap.java:776)
+  at java.base/java.util.TreeMap.put(TreeMap.java:785)
+  at java.base/java.util.TreeMap.put(TreeMap.java:534)
+  at java.base/java.util.TreeSet.add(TreeSet.java:255)
+  at java.base/java.util.AbstractCollection.addAll(AbstractCollection.java:336)
+  at java.base/java.util.TreeSet.addAll(TreeSet.java:309)
+  at org.glassfish.jersey.model.internal.CommonConfig.configureAutoDiscoverableProviders(CommonConfig.java:609)
+EXACT_PLUGIN_UPLOAD_FAILED: org.apache.kafka.connect.errors.RetriableException: OCI Log Events request failed: status=-1, opcRequestId=null
+
+Note: data/diagnostics/WorkerUploadIsolation.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.

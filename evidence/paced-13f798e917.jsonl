@@ -1,0 +1,20 @@
+{"timestamp":"2026-10-27T07:26:59.480Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000000","service":"checkout","level":"ERROR","message":"Payment request failed","latency_ms":850}
+{"timestamp":"2026-10-27T07:26:59.985Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000001","service":"inventory","level":"INFO","message":"Request completed","latency_ms":26}
+{"timestamp":"2026-10-27T07:27:00.480Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000002","service":"payments","level":"INFO","message":"Request completed","latency_ms":27}
+{"timestamp":"2026-10-27T07:27:00.985Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000003","service":"checkout","level":"INFO","message":"Request completed","latency_ms":28}
+{"timestamp":"2026-10-27T07:27:01.484Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000004","service":"inventory","level":"INFO","message":"Request completed","latency_ms":29}
+{"timestamp":"2026-10-27T07:27:01.984Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000005","service":"payments","level":"WARN","message":"Request took longer than expected","latency_ms":30}
+{"timestamp":"2026-10-27T07:27:02.485Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000006","service":"checkout","level":"INFO","message":"Request completed","latency_ms":31}
+{"timestamp":"2026-10-27T07:27:02.982Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000007","service":"inventory","level":"INFO","message":"Request completed","latency_ms":32}
+{"timestamp":"2026-10-27T07:27:03.484Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000008","service":"payments","level":"INFO","message":"Request completed","latency_ms":33}
+{"timestamp":"2026-10-27T07:27:03.980Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000009","service":"checkout","level":"INFO","message":"Request completed","latency_ms":34}
+{"timestamp":"2026-10-27T07:27:04.480Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000010","service":"inventory","level":"WARN","message":"Request took longer than expected","latency_ms":35}
+{"timestamp":"2026-10-27T07:27:04.984Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000011","service":"payments","level":"INFO","message":"Request completed","latency_ms":36}
+{"timestamp":"2026-10-27T07:27:05.480Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000012","service":"checkout","level":"INFO","message":"Request completed","latency_ms":37}
+{"timestamp":"2026-10-27T07:27:05.985Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000013","service":"inventory","level":"INFO","message":"Request completed","latency_ms":38}
+{"timestamp":"2026-10-27T07:27:06.480Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000014","service":"payments","level":"INFO","message":"Request completed","latency_ms":39}
+{"timestamp":"2026-10-27T07:27:06.985Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000015","service":"checkout","level":"WARN","message":"Request took longer than expected","latency_ms":40}
+{"timestamp":"2026-10-27T07:27:07.482Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000016","service":"inventory","level":"INFO","message":"Request completed","latency_ms":41}
+{"timestamp":"2026-10-27T07:27:07.985Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000017","service":"payments","level":"INFO","message":"Request completed","latency_ms":42}
+{"timestamp":"2026-10-27T07:27:08.481Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000018","service":"checkout","level":"INFO","message":"Request completed","latency_ms":43}
+{"timestamp":"2026-10-27T07:27:08.980Z","demo_run_id":"paced-13f798e917","event_id":"paced-13f798e917-000019","service":"inventory","level":"INFO","message":"Request completed","latency_ms":44}

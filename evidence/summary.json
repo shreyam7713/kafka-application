@@ -1,0 +1,76 @@
+{
+  "scope": "Kafka to FileStream only; OCI integration deferred",
+  "kafka_version": "4.1.2",
+  "host_connect_java": "Temurin 17.0.21+9",
+  "broker": "localhost:19092",
+  "connect_rest": "http://localhost:8083",
+  "topic": "la-hackathon-logs",
+  "connector": "oci-la-hackathon",
+  "test_runs": 6,
+  "total_produced": 1401,
+  "total_received_unique": 1401,
+  "total_missing": 0,
+  "total_duplicates": 0,
+  "total_changed_events": 0,
+  "all_passed": true,
+  "runs": [
+    {
+      "run_id": "accept-d8d8e8c0-backlog",
+      "test": "restart-recovery",
+      "mode": "normal",
+      "produced": 100,
+      "received_unique": 100,
+      "passed": true
+    },
+    {
+      "run_id": "accept-d8d8e8c0-error-spike",
+      "test": "filestream-baseline",
+      "mode": "error-spike",
+      "produced": 100,
+      "received_unique": 100,
+      "passed": true
+    },
+    {
+      "run_id": "accept-d8d8e8c0-escaping",
+      "test": "filestream-baseline",
+      "mode": "edge-cases",
+      "produced": 100,
+      "received_unique": 100,
+      "passed": true
+    },
+    {
+      "run_id": "accept-d8d8e8c0-hundred",
+      "test": "filestream-baseline",
+      "mode": "normal",
+      "produced": 100,
+      "received_unique": 100,
+      "passed": true
+    },
+    {
+      "run_id": "accept-d8d8e8c0-one",
+      "test": "filestream-baseline",
+      "mode": "normal",
+      "produced": 1,
+      "received_unique": 1,
+      "passed": true
+    },
+    {
+      "run_id": "accept-d8d8e8c0-thousand",
+      "test": "filestream-baseline",
+      "mode": "normal",
+      "produced": 1000,
+      "received_unique": 1000,
+      "passed": true
+    }
+  ],
+  "topic_partitions": 1,
+  "topic_replication_factor": 1,
+  "consumer_offset": 1401,
+  "log_end_offset": 1401,
+  "consumer_lag": 0,
+  "connector_state": "RUNNING",
+  "task_state": "RUNNING",
+  "broker_java": "Java 21 in linux/amd64 container",
+  "kafka_binary_sha512": "78ac6e488b1071122f9608dfdb363f6fe50e1dbbc492347002c0398dfbf77e0d8caa5bf794c5937379721004dfe92025937d238b0faf4eb715529417fd43b491",
+  "java17_archive_sha256": "78b08c7f5a0598242d5719c022e19479cb4a3aa45c37c19726a757a469ed1c15"
+}

@@ -1,0 +1,10 @@
+{"timestamp":"2026-10-27T11:12:09.142Z","demo_run_id":"oci-75a5bab00f87","event_id":"oci-75a5bab00f87-000000","service":"checkout","level":"ERROR","message":"Payment request failed","latency_ms":850}
+{"timestamp":"2026-10-27T11:12:15.146Z","demo_run_id":"oci-75a5bab00f87","event_id":"oci-75a5bab00f87-000001","service":"inventory","level":"INFO","message":"Request completed","latency_ms":26}
+{"timestamp":"2026-10-27T11:12:21.145Z","demo_run_id":"oci-75a5bab00f87","event_id":"oci-75a5bab00f87-000002","service":"payments","level":"INFO","message":"Request completed","latency_ms":27}
+{"timestamp":"2026-10-27T11:12:27.144Z","demo_run_id":"oci-75a5bab00f87","event_id":"oci-75a5bab00f87-000003","service":"checkout","level":"INFO","message":"Request completed","latency_ms":28}
+{"timestamp":"2026-10-27T11:12:33.145Z","demo_run_id":"oci-75a5bab00f87","event_id":"oci-75a5bab00f87-000004","service":"inventory","level":"INFO","message":"Request completed","latency_ms":29}
+{"timestamp":"2026-10-27T11:12:39.147Z","demo_run_id":"oci-75a5bab00f87","event_id":"oci-75a5bab00f87-000005","service":"payments","level":"WARN","message":"Request took longer than expected","latency_ms":30}
+{"timestamp":"2026-10-27T11:12:45.147Z","demo_run_id":"oci-75a5bab00f87","event_id":"oci-75a5bab00f87-000006","service":"checkout","level":"INFO","message":"Request completed","latency_ms":31}
+{"timestamp":"2026-10-27T11:12:51.145Z","demo_run_id":"oci-75a5bab00f87","event_id":"oci-75a5bab00f87-000007","service":"inventory","level":"INFO","message":"Request completed","latency_ms":32}
+{"timestamp":"2026-10-27T11:12:57.147Z","demo_run_id":"oci-75a5bab00f87","event_id":"oci-75a5bab00f87-000008","service":"payments","level":"INFO","message":"Request completed","latency_ms":33}
+{"timestamp":"2026-10-27T11:13:03.147Z","demo_run_id":"oci-75a5bab00f87","event_id":"oci-75a5bab00f87-000009","service":"checkout","level":"INFO","message":"Request completed","latency_ms":34}

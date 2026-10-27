@@ -1,0 +1,20 @@
+{
+  "probe": "Stopped OCI connector registration and initial offset seeding",
+  "tasks_started": false,
+  "cloud_requests_made": false,
+  "offsets_verified": {
+    "offsets": [
+      {
+        "partition": {
+          "kafka_partition": 0,
+          "kafka_topic": "la-hackathon-logs"
+        },
+        "offset": {
+          "kafka_offset": 1488
+        }
+      }
+    ]
+  },
+  "file_connector_preserved": true,
+  "passed": true
+}
